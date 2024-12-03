@@ -43,11 +43,12 @@ export interface Primero {
 }
 
 @Component({
-  selector: 'app-reporte-semestral',
-  templateUrl: './reporte-semestral.component.html',
-  styleUrls: ['./reporte-semestral.component.css'],
+  selector: 'app-reporte-parcial',
+  templateUrl: './reporte-parcial.component.html',
+  styleUrls: ['./reporte-parcial.component.css'],
 })
-export class ReporteSemestralComponent {
+//class ReporteSemestralComponent
+export class ReporteParcialComponent {
   @Output() titulo = new EventEmitter<string>();
   @Output() loadSpinner = new EventEmitter<string>();
 

@@ -28,6 +28,7 @@ import { ReporteParcialComponent } from './pages/reporte-parcial/reporte-parcial
     CargarCarrerasComponent,
     CargarDocentesComponent,
     ReporteSemestralComponent,
+    ReporteParcialComponent,
     AvisosComponent,
     ReporteParcialComponent
   ],
